@@ -14,7 +14,7 @@ func main() {
 	printDetails(musket)
 }
 
-func printDetails(g gun.IGun) {
+func printDetails(g gun.Gun) {
 	fmt.Printf("Gun: %s", g.GetName())
 	fmt.Println()
 	fmt.Printf("Power: %d", g.GetPower())
