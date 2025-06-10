@@ -173,6 +173,7 @@ func ConnectToComputer(computerType string) {
 ### より現実的な場面での価値
 
 #### **1. 外部ライブラリ・APIとの統合**
+adapterは新しい決済インターフェースを持ち、レガシーインターフェースをラップする
 
 ```go
 // 既存の決済システム（変更不可能）
